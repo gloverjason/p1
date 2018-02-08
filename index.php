@@ -4,22 +4,23 @@
     CSCI E-15
     2-5-18
 -->
-
+<?php require('p1_logic.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
       
 <head>
-    <title>Project 1</title>
+    <title>Jason Glover</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/p1styles.css" />
+    <link rel="stylesheet" href="css/p1_styles.css" />
 </head>
     
 <body>
+    <div>
     <header>
         <h1>Jason Glover</h1>
     </header>
     
-    <img src="images/jason-project1.jpg" alt="A picture of me" id="skier">
+    <img src="images/jason-project1.jpg" alt="A picture of me"><br/><br/>
     
     <h2>About Me</h2> 
     
@@ -31,7 +32,12 @@
     <br/><br/>
     Jason</p>
     
-    <h2>Random Quote</h2>
+    <br/>
+    
+    <h2>Random Quote<span id="refresh"> (Refresh to see more quotes)</span></h2>
+    <p id="random"><?php echo $randomQuotes[$randomKey[0]]; ?></p>
+    </div>
+    
 </body>
 
 </html>

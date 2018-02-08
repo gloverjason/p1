@@ -1,0 +1,35 @@
+/*
+* Project 1
+* Jason Glover
+* 2-5-18 
+*/
+
+/* Body styles */
+
+body {
+    background-color:rgb(153, 194, 255);
+    
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.3em;
+}
+
+p#random {
+    font-family:cursive;
+}
+
+
+/*Div styles*/
+div {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Span style */
+span#refresh {
+    font-size: .7em;
+    font-style:italic;
+    font-weight: normal;
+}
