@@ -20,7 +20,7 @@
         <h1>Jason Glover</h1>
     </header>
     
-    <img src="images/jason-project1.jpg" alt="A picture of me"><br/><br/>
+    <img src="images/jason-project1.JPG" alt="A picture of me"><br/><br/>
     
     <h2>About Me</h2> 
     
